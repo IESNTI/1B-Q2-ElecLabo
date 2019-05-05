@@ -1,0 +1,7 @@
+r noir : 20k
+r lumière : 1,2k
+r : 6,7k
+v tension lumière : 0,8V
+v tension noir : 3,5V
+valeur lumière serial : 200
+valeur doigt dessus noir serial : 650
