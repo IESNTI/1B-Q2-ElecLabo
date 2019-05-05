@@ -9,5 +9,9 @@ Folders starting with:
 
 `Arduino_rewrite` is a folder where I reworked all the manipulations of the PDF `labo initiation aux systèmes embarquées Q2 V1 arduino` at home without copying the ones from the course so made from scratch.
 
-## Train at home without an arduino
+## Train at home without having an arduino
 You can signup on [Tinkercard](https://www.tinkercad.com) to access an environment where you will be able to use a real arduino using your browser.
+
+Here are two Tinkercard that I made if you need some examples:
+* Manip3 : https://www.tinkercad.com/embed/g7kDrpXSSbb?editbtn=1
+* Manip5 : https://www.tinkercad.com/embed/kkFFNlkVrwm?editbtn=1
