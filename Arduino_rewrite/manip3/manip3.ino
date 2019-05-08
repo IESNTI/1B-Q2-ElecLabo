@@ -1,9 +1,9 @@
 #define button1 2
 #define led1 11
-#define pressed false
-#define released true
-#define ledOn true
-#define ledOff false
+#define pressed LOW
+#define released HIGH
+#define ledOn LOW
+#define ledOff HIGH
 
 boolean saveButtonState;
 boolean buttonState;
@@ -14,12 +14,12 @@ void setup() {
     pinMode(led1, OUTPUT);
     saveButtonState = released;
     ledState = ledOff;
+    digitalWrite(led1, ledOff);
     Serial.begin(9600);
 }
 
 void loop() {
     buttonState = digitalRead(button1);
-
     if (buttonState == pressed && saveButtonState == released) {
         Serial.print("^");
         saveButtonState = pressed;
@@ -36,6 +36,5 @@ void loop() {
         Serial.print(".");
         saveButtonState = released;
     }
-
-    delay(50);
+	delay(50);
 }
